@@ -1,0 +1,75 @@
+{
+  "contractName": "Token2Storage",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Token2Storage.sol\":\"Token2Storage\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Token2Storage.sol\":{\"keccak256\":\"0x3c6f7c64f74d59fbfaf3b04cbaf77635cfbd917923eb7f920bcedefae19d39a7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d4de0cdb37ce4384a0218b0aab852ce97089935e73d9c075ff9846506a32a86f\",\"dweb:/ipfs/QmYmFq95mMvMAKoLEtFtufza9mUfFsDtvy7DyUM1kRBHA3\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220c5a9be8674e08970400ece95bcef103816898f452d0a96d6ca0de8e8d2314d9c64736f6c63430008130033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220c5a9be8674e08970400ece95bcef103816898f452d0a96d6ca0de8e8d2314d9c64736f6c63430008130033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "83:86:8:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "83:86:8:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.19;\n\n// Storage del contratto\ncontract Token2Storage {\n    //uint8 public VERSION;\n    //uint256 public maxSupply;\n}",
+  "sourcePath": "/Users/francescodinardo/TokenUp/contracts/Token2Storage.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Token2Storage.sol",
+    "exportedSymbols": {
+      "Token2Storage": [
+        1478
+      ]
+    },
+    "id": 1479,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1477,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".19"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:24:8"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Token2Storage",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1478,
+        "linearizedBaseContracts": [
+          1478
+        ],
+        "name": "Token2Storage",
+        "nameLocation": "92:13:8",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1479,
+        "src": "83:86:8",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:137:8"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.19+commit.7dd6d404.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-07-28T14:52:47.035Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
